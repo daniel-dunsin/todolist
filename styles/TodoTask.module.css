@@ -1,0 +1,28 @@
+.task {
+  font-size: 1.6rem;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.4rem;
+}
+.task .taskName,
+.task .deadline {
+  flex: 0.4;
+  background-color: tomato;
+  border-right: 2px solid white;
+  padding: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task .deleteBtn {
+  flex: 0.2;
+  border: 2px solid lightseagreen;
+  border-left: none;
+  color: white;
+  background-color: lightseagreen;
+  padding: 1.2rem;
+}
+.task .deleteBtn:hover {
+  opacity: 0.7;
+}

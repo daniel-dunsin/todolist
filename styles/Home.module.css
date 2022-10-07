@@ -1,0 +1,52 @@
+.container {
+}
+.container .header {
+  padding: 8rem 4rem;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .header .flexContainer {
+  display: flex;
+  max-width: 320px;
+  width: 94vw;
+}
+.container .header .flexContainer .inputsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1.4;
+}
+.container .header .flexContainer .inputsContainer input {
+  padding: 1.2rem 2rem;
+  width: 100%;
+  max-width: 250px;
+  font-size: 1.6rem;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 0.4rem;
+}
+.container .header .flexContainer .inputsContainer input:focus {
+  border-color: black;
+}
+.container .header .flexContainer .buttonContainer {
+  flex: 0.5;
+  width: 100%;
+}
+.container .header .flexContainer .buttonContainer button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+.container .todoContainer {
+  width: 90vw;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
